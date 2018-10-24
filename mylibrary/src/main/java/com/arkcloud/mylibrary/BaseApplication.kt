@@ -5,7 +5,7 @@ import com.orhanobut.logger.AndroidLogAdapter
 import com.orhanobut.logger.Logger
 import com.orhanobut.logger.PrettyFormatStrategy
 
-class BaseApplication : Application() {
+open class BaseApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         initThridPack()
